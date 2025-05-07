@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.app {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 15px 30px;
+  height: 200px;
+  background-color: rgb(19, 18, 18);
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: wheat;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-left: 125px;
+  letter-spacing: 1rem;
+}
+
+.header h1 strong {
+  color: red;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo-section h2 {
+  font-size: 24px;
+  color: #222;
+  margin: 20px 0 10px;
+  font-weight: 600;
+}
+
+.banner-section {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+}
+
+.banner-section .aux,
+.banner-section .aux-text {
+  flex: 1 1 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.banner-section h3 {
+  font-size: 3rem;
+  color: wheat;
+  font-weight: bold;
+}
+
+.banner-section p {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: wheat;
+}
+
+.highlight {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  width: 80%;
+  margin: auto;
+}
+
+.content-section .aux-2 {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-section .aux-2 h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.content-section .aux-2 p {
+  font-size: 1rem;
+  margin-top: 25px;
+}
+
+.left-column,
+.right-column {
+  flex: 1 1 100%;
+  padding: 15px 0;
+}
+
+.brand-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.feature-pairs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-row span {
+  font-size: 14px;
+  color: #555;
+}
+
+.divider {
+  color: #ccc;
+}
+
+.schedule-button {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.schedule-button:hover {
+  background-color: #444;
+}
+
+.info-text {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.py {
+  width: 90%;
+  margin: 75px auto;
+}
+
+.py .containere .row {
+  width: 80%;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.py .containere .row .card {
+  width: 80%;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(247, 247, 247);
+  /* border: 2px solid black; */
+}
+
+.py .containere .row .card h2 {
+  color: rgb(19, 18, 18);
+  font-weight: bolder;
+}
+
+.py .containere .row .card p {
+  color: rgb(12, 12, 12);
+  font-size: 1.2rem;
+}
+
+.cards {
+  width: 80%;
+  background-color: rgb(231, 231, 231);
+  padding: 3rem;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.container {
+  background-color: transparent;
+}
+
+.container .card {
+  border: none;
+  padding: 2rem;
+  background-color: rgb(238, 238, 238);
+}
+
+.aux h3 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.aux h3 strong {
+  color: rgb(235, 18, 3);
+}
+
+.py-5 .container .card .card-body h2 {
+  font-size: 2rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px 0;
+  background-color: black;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.footer-logo {
+  font-size: 20px;
+  color: #bebebe;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer-title {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer-text {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #9b9898;
+}
+
+.footer-text strong {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #e20000;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    letter-spacing: 0.2rem;
+  }
+
+  .banner-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .banner-section h3 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .content-section {
+    flex-direction: column;
+  }
+
+  .aux-2 h2 {
+    font-size: 2rem;
+  }
+
+  .py .containere .row {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .py .containere .row .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .banner-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .py .containere .row .card p {
+    font-size: 1rem;
+  }
+
+  .aux h3 {
+    font-size: 2rem;
+  }
+
+  .content-section {
+    width: 100%;
+  }
+
+  .content-section .aux-2 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .py-5 {
+    width: 100%;
+    padding: .5rem;
+  }
+
+  .py-5 .container {
+    width: 100%;
+  }
+
+}
